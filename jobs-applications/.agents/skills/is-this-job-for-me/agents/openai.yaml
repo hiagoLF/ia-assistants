@@ -1,0 +1,4 @@
+interface:
+  display_name: "Is this job for me?"
+  short_description: "Analisa vagas internacionais para meu perfil"
+  default_prompt: "Use $is-this-job-for-me para analisar a compatibilidade desta vaga com meu perfil."

@@ -1,0 +1,6 @@
+interface:
+  display_name: "Preparação para entrevista"
+  short_description: "Prepara respostas para uma entrevista marcada"
+  default_prompt: "Use $prepare-for-job-interview para me preparar para a entrevista marcada desta vaga."
+policy:
+  allow_implicit_invocation: false
