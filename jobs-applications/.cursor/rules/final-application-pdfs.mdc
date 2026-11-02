@@ -1,0 +1,14 @@
+---
+description: Manter somente os PDFs finais de cada candidatura com nomes simples após a validação.
+alwaysApply: true
+---
+
+# PDFs finais de candidatura
+
+- Salve os PDFs finais em `generated/<empresa-slug>/<vaga-slug>/resume.pdf` e `cover-letter.pdf`, sem sufixos de versão.
+- Valide todas as páginas visualmente e por extração de texto antes de publicar os nomes finais.
+- Se o helper exigir caminhos inéditos, use os nomes versionados apenas provisoriamente. Após aprovar o resultado, renomeie o par final e remova os PDFs intermediários criados para a candidatura atual.
+- Em atualizações, mantenha o PDF final anterior até validar seu substituto. Depois substitua somente o documento gerado; não remova uma cover letter existente ao gerar apenas resume.
+- Esta regra prevalece sobre instruções das skills que exigem preservar versões dos PDFs. Não crie subpastas por execução.
+- Preserve o histórico migrado, outras candidaturas e todos os materiais de entrevista; não faça limpeza global de `generated/`.
+- Exemplo de entrega: `resume.pdf` e `cover-letter.pdf`, em vez de `resume-20261102-183753-0300-ddc9f9fe.pdf` e `cover-letter-20261102-183753-0300-ddc9f9fe.pdf`.
