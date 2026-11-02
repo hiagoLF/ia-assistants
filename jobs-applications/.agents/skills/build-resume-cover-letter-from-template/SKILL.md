@@ -5,7 +5,7 @@ description: Gerar PDFs de resume e cover letter a partir dos templates HTML de 
 
 # Build resume and cover letter from template
 
-Use os templates desta skill para renderizar conteúdos já preparados. A fonte de dados do perfil é `../fit-resume-for-job/references/`: leia as transcrições e as atualizações autorizadas. Use a skill irmã local deste projeto. Templates e fixtures preservam a aparência e o texto original para validação visual; não os use para inferir o perfil atual nem para sobrepor correções.
+Use os templates desta skill para renderizar conteúdos já preparados. A fonte de dados do perfil é a pasta `../../../references/` na raiz do projeto: leia `resume-original.md` e `cover-letter-original.md`, considerando as correções explícitas mais recentes. Use a skill irmã local deste projeto. Templates e fixtures preservam a aparência e o texto original para validação visual; não os use para inferir o perfil atual nem para sobrepor correções.
 
 ## Templates e fidelidade
 

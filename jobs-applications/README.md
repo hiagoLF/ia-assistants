@@ -13,11 +13,13 @@ Nenhuma candidatura é enviada automaticamente. Não são criados arquivos separ
 
 ## Skills locais
 
-As quatro skills ficam em [.agents/skills/](.agents/skills/), com seus scripts, referências e assets. As três skills importadas substituem as instalações globais anteriores.
+As skills ficam em [.agents/skills/](.agents/skills/), com seus scripts e assets; as referências compartilhadas ficam em [references/](references/). As três skills importadas substituem as instalações globais anteriores.
 
 - [is-this-job-for-me](.agents/skills/is-this-job-for-me/SKILL.md): avalia compatibilidade, critérios eliminatórios, pendências, tecnologias e exigências da candidatura.
 - [fit-resume-for-job](.agents/skills/fit-resume-for-job/SKILL.md): prepara conteúdo fiel ao perfil, com termos ATS sustentados por experiência real, perguntas agrupadas, PDFs e respostas de formulário.
 - [build-resume-cover-letter-from-template](.agents/skills/build-resume-cover-letter-from-template/SKILL.md): transforma conteúdo preparado em PDFs selecionáveis usando os templates HTML, WeasyPrint e validação visual e textual.
+- [grill-me](.agents/skills/grill-me/SKILL.md): esclarece o contexto da candidatura com perguntas agrupadas em português.
+- [update-resume-experience](.agents/skills/update-resume-experience/SKILL.md): acrescenta ou modifica experiências em `references/resume-original.md`, com fatos do usuário e no formato existente.
 - [prepare-for-job-interview](.agents/skills/prepare-for-job-interview/SKILL.md): prepara perguntas e sugestões de respostas em inglês para entrevista marcada, somente mediante solicitação explícita.
 
 As regras permanentes de seleção e uso estão em [AGENTS.md](AGENTS.md).
@@ -28,7 +30,7 @@ Os critérios de avaliação foram mantidos: foco em React/React Native, remoto 
 
 A conversa, as perguntas e a documentação são em português. Os materiais da candidatura e da entrevista são em inglês, salvo instrução diferente ou exigência da vaga. Todas as perguntas necessárias de uma rodada são enviadas juntas.
 
-As fontes do perfil estão em `.agents/skills/fit-resume-for-job/references/`. As transcrições originais são preservadas; novas informações precisam de autorizações separadas para uso atual e persistência futura. Correções autorizadas mais recentes prevalecem sobre o original.
+As fontes do perfil estão em `references/` na raiz do projeto. A skill `update-resume-experience` mantém as experiências diretamente em `resume-original.md`, mediante solicitação ou autorização de persistência. Preserve o conteúdo fora do escopo solicitado. Uso em materiais e persistência precisam de autorizações separadas; um pedido explícito para atualizar o arquivo já autoriza essa persistência. Correções explícitas mais recentes prevalecem.
 
 ## Organização dos arquivos
 
@@ -39,8 +41,13 @@ jobs-applications/
 ├── .agents/skills/
 │   ├── is-this-job-for-me/
 │   ├── fit-resume-for-job/
+│   ├── grill-me/
 │   ├── build-resume-cover-letter-from-template/
-│   └── prepare-for-job-interview/
+│   ├── prepare-for-job-interview/
+│   └── update-resume-experience/
+├── references/
+│   ├── resume-original.md
+│   └── cover-letter-original.md
 └── generated/<empresa-slug>/<vaga-slug>/
     ├── resume-IDENTIFICADOR.pdf
     ├── cover-letter-IDENTIFICADOR.pdf

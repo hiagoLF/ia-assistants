@@ -11,11 +11,11 @@ Converse em português e produza o material em inglês, salvo instrução difere
 
 ## Contexto e fontes
 
-Leia `../fit-resume-for-job/references/resume-original.md`, `cover-letter-original.md` e `authorized-updates.md` na mesma pasta de referências. Correções autorizadas mais recentes prevalecem sobre os originais. Para Knowledge Paths, a métrica correta é consumo de materiais 5× maior. PDFs antigos, templates e requisitos da vaga não comprovam experiência.
+Leia [resume-original.md](../../../references/resume-original.md) e [cover-letter-original.md](../../../references/cover-letter-original.md), na pasta `references/` da raiz do projeto. Correções explícitas mais recentes prevalecem. Para Knowledge Paths, a métrica correta é consumo de materiais 5× maior. PDFs antigos, templates e requisitos da vaga não comprovam experiência.
 
 Consulte a descrição da vaga e o currículo enviado em `generated/<empresa>/<vaga>/` na raiz do projeto. Se houver versões diferentes, identifique a enviada pelo contexto ou pergunte; não presuma que seja a mais recente. Abra links fornecidos e use fontes oficiais para informações atuais da empresa. Não alegue ter lido uma fonte inacessível.
 
-Reúna todas as perguntas necessárias em uma única rodada numerada em português, conforme `../fit-resume-for-job/references/grill-me.md`: empresa e vaga, etapa, data e fuso, idioma, formato, entrevistadores conhecidos e assuntos que deseja praticar. Pergunte só o que faltar e for relevante; não bloqueie a preparação por detalhes opcionais desconhecidos. Se o agendamento não estiver confirmado, esclareça antes de produzir o material. Use dessa referência apenas as regras de entrevista agrupada e autorização; perguntas sobre formulário e cover letter pertencem à candidatura.
+Reúna todas as perguntas necessárias em uma única rodada numerada em português, conforme [grill-me](../grill-me/SKILL.md): empresa e vaga, etapa, data e fuso, idioma, formato, entrevistadores conhecidos e assuntos que deseja praticar. Pergunte só o que faltar e for relevante; não bloqueie a preparação por detalhes opcionais desconhecidos. Se o agendamento não estiver confirmado, esclareça antes de produzir o material. Use dessa skill apenas as regras de entrevista agrupada e autorização; perguntas sobre formulário e cover letter pertencem à candidatura.
 
 Para experiências novas, obtenha permissões separadas de uso na preparação atual e persistência nas referências. Não repita autorizações já concedidas para o mesmo escopo. Salário, disponibilidade e autorização de trabalho precisam de confirmação; não invente respostas.
 
