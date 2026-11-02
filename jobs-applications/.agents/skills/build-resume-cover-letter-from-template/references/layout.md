@@ -22,4 +22,4 @@ Os quatro pequenos ícones de contato da carta foram preservados a partir da ren
 
 ## Ajuste para caber
 
-A escala do corpo segue 100%, 97,5%, 95%, 92,5% e 90,476% (9,5pt para o corpo de 10,5pt). Primeiro tente esses tamanhos. Se ainda ultrapassar o limite, reduza o texto. Nunca use corte, ocultação, transformação gráfica de toda a página ou remoção de fatos essenciais para simular conformidade.
+O limite padrão dos materiais adaptados é de 4 páginas para resume e 1 para cover letter. A escala do corpo segue 100%, 97,5%, 95%, 92,5% e 90,476% (9,5pt para o corpo de 10,5pt). Primeiro tente esses tamanhos. Se ainda ultrapassar o limite, reduza o texto preservando as descrições das empresas e os bullets de 35 a 65 palavras no formato exigido pela skill de adaptação. Nunca use corte, ocultação, transformação gráfica de toda a página ou remoção de fatos essenciais para simular conformidade.

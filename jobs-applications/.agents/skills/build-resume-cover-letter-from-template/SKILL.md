@@ -16,6 +16,8 @@ Use os templates desta skill para renderizar conteúdos já preparados. A fonte 
 
 Não substitua o layout por outro design. Preserve A4 medido em 596×842pt, coluna única, margens, hierarquia, linhas divisórias, contatos clicáveis, estilos de corpo e listas do original. Conteúdo variável flui naturalmente; as reproduções de referência preservam os originais separadamente. Não achate páginas em imagens.
 
+O limite padrão é **4 páginas para resume e 1 para cover letter**, sem obrigação de preencher o limite. Para resumes adaptados, confira antes da renderização o formato definido na skill irmã `fit-resume-for-job`: descrições de empresas iguais às originais, salvo ajustes pontuais de palavras-chave comprovadas; cada realização em um bullet de 35 a 65 palavras, na ordem **o que foi feito → resultados e métricas → tecnologias**. Preserve os originais e fixtures históricos sem reescrevê-los para atender a essas regras de adaptação.
+
 ## Procedimento
 
 1. Verifique `weasyprint` e `pdfinfo`. Se faltar algum, instale conforme [references/commands.md](references/commands.md), respeitando as permissões do ambiente. Os comandos CLI foram pesquisados e testados em subagente antes da criação desta skill; não precisa repetir a delegação a cada execução.
@@ -25,14 +27,14 @@ Não substitua o layout por outro design. Preserve A4 medido em 596×842pt, colu
 ```bash
 python3 /caminho/build-resume-cover-letter-from-template/scripts/render.py \
   --kind resume --data /temporario/resume.json \
-  --output /caminho/jobs-applications/generated/empresa/vaga/resume-IDENTIFICADOR.pdf --max-pages 2
+  --output /caminho/jobs-applications/generated/empresa/vaga/resume-IDENTIFICADOR.pdf --max-pages 4
 python3 /caminho/build-resume-cover-letter-from-template/scripts/render.py \
   --kind cover-letter --data /temporario/cover-letter.json \
   --output /caminho/jobs-applications/generated/empresa/vaga/cover-letter-IDENTIFICADOR.pdf --max-pages 1
 ```
 
 4. O helper cria HTML intermediário, executa `weasyprint --encoding utf-8`, conta páginas usando `LC_ALL=C pdfinfo`, e reduz fontes progressivamente se houver excesso. Corpo de 10,5pt não fica menor que 9,5pt. Nome e contatos mantêm tamanho. O limite explícito do usuário prevalece sobre o padrão.
-5. Se o helper retornar `OVERFLOW`, a redução de fonte já foi tentada. Só agora encurte descrições, redundâncias e pontos menos relevantes no JSON, preservando evidências essenciais e a veracidade. Tente novamente. Não comprima indefinidamente nem entregue um PDF acima do limite.
+5. Se o helper retornar `OVERFLOW`, a redução de fonte já foi tentada. Só agora encurte redundâncias ou remova pontos menos relevantes no JSON, preservando evidências essenciais, a veracidade e o formato das experiências. Não resuma livremente as descrições de empresas nem reduza os bullets abaixo de 35 palavras; mantenha o máximo de 65 palavras por bullet. Tente novamente. Não comprima indefinidamente nem entregue um PDF acima do limite.
 6. Renderize as páginas com `pdftoppm -png PDF PREFIXO` numa pasta temporária e inspecione todas. Confira legibilidade, quebras, links, títulos isolados, sobreposição e cortes. Extraia o texto com `pdfplumber`, `pypdf` ou `pdftotext` e verifique acentos, leitura linear, contatos, datas, métricas e termos ATS. Uma contagem de páginas correta não substitui essa revisão.
 7. Se uma versão precisar de correção, preserve-a e use outro identificador de arquivo. O helper recusa sobrescrita inclusive em caso de colisão concorrente. Após validar, apague JSON, imagens e demais intermediários que você criou; o HTML temporário do helper já é removido automaticamente. Mantenha os assets permanentes da skill. Em `generated/empresa/vaga/` na raiz do projeto, mantenha apenas os materiais finais versionados, sem subpastas por execução. Este fluxo gera PDFs; Markdown de entrevista só é criado pela skill separada, mediante pedido explícito. Preserve os materiais existentes.
 

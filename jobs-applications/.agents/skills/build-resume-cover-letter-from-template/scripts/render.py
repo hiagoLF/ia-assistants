@@ -84,7 +84,7 @@ def main():
     args.output = args.output.resolve()
     if not args.output.is_relative_to(output_root.resolve()):
         parser.error('Output must be inside the project generated directory')
-    maximum = args.max_pages if args.max_pages is not None else (2 if args.kind == 'resume' else 1)
+    maximum = args.max_pages if args.max_pages is not None else (4 if args.kind == 'resume' else 1)
     if maximum < 1: parser.error('--max-pages must be positive')
     for command in ['weasyprint', 'pdfinfo']:
         if not shutil.which(command): parser.error(f'Missing {command}; read references/commands.md')
