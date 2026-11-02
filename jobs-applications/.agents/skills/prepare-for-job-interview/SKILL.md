@@ -31,4 +31,4 @@ Na parte técnica, inclua fundamentos, cenários e trade-offs das tecnologias e 
 
 Execute `python3 .agents/skills/fit-resume-for-job/scripts/new_run.py --company EMPRESA --job VAGA --kind interview` a partir da raiz do projeto (ou use o caminho absoluto do script). Salve no caminho retornado, `generated/<empresa-slug>/<vaga-slug>/interview-IDENTIFICADOR.md`, com criação exclusiva (`open(..., 'x')`) e sem sobrescrever versões. Nunca salve artefatos na pasta da skill nem crie subpastas por execução.
 
-Atualize `applications.md` com o status `entrevista`, as informações confirmadas do agendamento e o link para o material. Preserve o histórico. Ao concluir, forneça o link do Markdown e as pendências que precisam ser confirmadas antes de usar as respostas.
+O único registro de candidatura são os arquivos de resume, cover-letter e interview em `generated/`; não crie arquivos separados de acompanhamento ou status. Ao concluir, forneça o link do Markdown e as pendências que precisam ser confirmadas antes de usar as respostas.

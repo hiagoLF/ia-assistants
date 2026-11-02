@@ -57,6 +57,6 @@ Use o helper `scripts/new_run.py` para criar slugs e obter caminhos inéditos. S
 
 ## Encerramento
 
-Ao concluir, forneça links dos materiais, páginas de cada PDF, respostas do formulário e lacunas relevantes. Atualize `applications.md` na raiz com o status `preparando` e os links produzidos; só marque como enviada quando o usuário confirmar o envio. Não modifique as referências sem a autorização correspondente.
+Ao concluir, forneça links dos materiais, páginas de cada PDF, respostas do formulário e lacunas relevantes. O único registro de candidatura são os arquivos de resume, cover-letter e interview em `generated/`; não crie arquivos separados de acompanhamento ou status. Não modifique as referências sem a autorização correspondente.
 
 A preparação para entrevista pertence exclusivamente à skill `../prepare-for-job-interview/SKILL.md`. Não a invoque nem gere `interview-*.md` automaticamente ao adaptar o currículo, mesmo se houver entrevista marcada. Aguarde pedido explícito do usuário.

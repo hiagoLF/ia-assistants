@@ -1,14 +1,15 @@
 # Candidaturas a vagas
 
-Este projeto concentra a avaliação de vagas, a adaptação de currículos e cover letters e o acompanhamento das candidaturas de Hiago Leão. A preparação para entrevistas é uma etapa separada, usada por pedido explícito quando uma entrevista estiver marcada.
+Este projeto concentra a avaliação de vagas e a adaptação de currículos e cover letters de Hiago Leão. O único registro de candidatura são os arquivos de resume, cover-letter e interview em `generated/`. A preparação para entrevistas é uma etapa separada, usada por pedido explícito quando uma entrevista estiver marcada.
 
 ## Fluxo de trabalho
 
 1. Envie o link ou a descrição da vaga. A skill `is-this-job-for-me` verifica aderência ao perfil, condições essenciais e instruções obrigatórias de candidatura.
 2. Depois da avaliação, peça a preparação da candidatura. A skill `fit-resume-for-job` adapta o resume e as respostas do formulário; inclui cover letter quando solicitada ou exigida pela vaga.
 3. A skill `build-resume-cover-letter-from-template` renderiza os PDFs a partir dos templates existentes, preservando layout, histórico e limites de páginas.
-4. Informe o envio e as mudanças de andamento para atualizar [applications.md](applications.md). Nenhuma candidatura é enviada automaticamente.
-5. Quando houver entrevista marcada, peça explicitamente `$prepare-for-job-interview`. Essa skill gera um roteiro de prática específico para a etapa. Ela nunca é chamada automaticamente pelas outras skills.
+4. Quando houver entrevista marcada, peça explicitamente `$prepare-for-job-interview`. Essa skill gera um roteiro de prática específico para a etapa. Ela nunca é chamada automaticamente pelas outras skills.
+
+Nenhuma candidatura é enviada automaticamente. Não são criados arquivos separados de acompanhamento, status ou avaliação de vagas.
 
 ## Skills locais
 
@@ -35,7 +36,6 @@ As fontes do perfil estão em `.agents/skills/fit-resume-for-job/references/`. A
 jobs-applications/
 ├── README.md
 ├── AGENTS.md
-├── applications.md
 ├── .agents/skills/
 │   ├── is-this-job-for-me/
 │   ├── fit-resume-for-job/
