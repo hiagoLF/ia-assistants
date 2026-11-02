@@ -15,6 +15,10 @@ MB Labs is a global fintech company specialized in financial technology and the 
 systems and applications for the financial market. Founded in 2013 as a startup, the company currently has over 300
 professionals spread across Brazil, transforming complex challenges into secure, scalable solutions that deliver real
 impact for businesses and individuals.
+• Contributed to rewriting the frontend of a logistics company's ERP system, migrating from React CLI to Svelte.
+The rewrite made the code easier for the team to understand, accelerated maintenance, and reduced the final
+application bundle size by 30%, improving initial load time. Technologies used: Svelte, React, TypeScript, HTML,
+and CSS.
 • Developed the frontend of a "Knowledge Paths" module within a course application, providing students with a
 visual roadmap of the lessons, exercises, and materials needed to complete the course. This feature increased
 student engagement and, additionally, boosted the number of materials consumed on the platform by 5x.
@@ -34,7 +38,7 @@ allowing them to refer new people to the bank and earn points. This increased us
 React and React Native.
 • Performed maintenance on various legacy systems and refactored old code, which reduced bug incidence
 and improved application performance; utilized React, React Native, Kotlin and Swift.
-Skills: React, React Native, Next, Prisma, Firebase, GraphQL, Swift, Kotlin, Vue
+Skills: React, React Native, Next, Prisma, Firebase, GraphQL, Swift, Kotlin, Vue, Svelte, TypeScript, HTML, CSS
 
 Full Stack Software Engineer
 Elleven Tecnologia | Vitória da Conquista, Bahia, Brazil (remote) 01/2022 – 10/2022
