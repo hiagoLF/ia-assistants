@@ -15,6 +15,10 @@ MB Labs is a global fintech company specialized in financial technology and the 
 systems and applications for the financial market. Founded in 2013 as a startup, the company currently has over 300
 professionals spread across Brazil, transforming complex challenges into secure, scalable solutions that deliver real
 impact for businesses and individuals.
+• Developed the mobile workout creation module for a gym management app, enabling personal trainers to create
+and modify workouts that members could follow in the same app. This improved trainer–member interaction and
+increased member engagement by 40%, as measured by gym attendance reports. Technologies used: React Native,
+Expo, TypeScript, Supabase, Firebase, and Google OAuth.
 • Built a 3D renderer to display chart details within a React administrative dashboard, enabling administrators
 to zoom in and out on specific points for a clearer view of individual items. Technologies used: Three.js,
 React, Next.js, HTML, CSS, and TypeScript. **NOTA**: Utilize essa experiência apenas quando necessário
@@ -41,7 +45,7 @@ allowing them to refer new people to the bank and earn points. This increased us
 React and React Native.
 • Performed maintenance on various legacy systems and refactored old code, which reduced bug incidence
 and improved application performance; utilized React, React Native, Kotlin and Swift.
-Skills: React, React Native, Next, Prisma, Firebase, GraphQL, Swift, Kotlin, Vue, Svelte, Three.js, TypeScript, HTML, CSS
+Skills: React, React Native, Next, Prisma, Firebase, GraphQL, Swift, Kotlin, Vue, Svelte, Three.js, TypeScript, HTML, CSS, Expo, Supabase, Google OAuth
 
 Full Stack Software Engineer
 Elleven Tecnologia | Vitória da Conquista, Bahia, Brazil (remote) 01/2022 – 10/2022
