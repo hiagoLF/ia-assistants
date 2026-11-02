@@ -1,0 +1,25 @@
+When building a Modal in React, rendering a div over the page is only part of the job.
+
+You also need to manage focus, prevent interaction with the content outside it, and provide ways to close it.
+
+It's easy to build a component that looks like a modal but leaves those behaviors out.
+
+That's where the native <dialog> element helps.
+
+Opening it with showModal() makes the rest of the page inert, keeps keyboard focus inside the modal, and lets users close it with Esc.
+
+The dialog also appears in the top layer, above normal page content, without competing for z-index.
+
+In React, you can wrap <dialog> in a component and use a ref to call showModal() and close(). You still have your abstraction, with native browser behavior as its foundation.
+
+You still need to provide an accessible name, choose the initial focus, and keep the component's state in sync when the dialog closes.
+
+What about the Popover API?
+
+It serves a different purpose: showing content without blocking the rest of the page, such as an actions panel or additional information. With popover="auto", the browser also handles dismissal when users click outside or press Esc.
+
+One important detail: <dialog> only becomes modal when opened in modal mode, such as with showModal(). Using show() or just the open attribute doesn't produce that behavior.
+
+Before implementing everything in your next component, check what the browser already provides.
+
+How do you handle these behaviors in your React modals?
