@@ -61,6 +61,8 @@ def content(data, kind):
             out.extend(p('entry', item) for item in data[key])
             out.append('</section>')
     else:
+        if data.get('headline'):
+            out.append(p('headline', data['headline']))
         out.extend([contact(data, True), '<h2>Cover Letter</h2>', p('salutation', data['salutation'])])
         out.extend(p('letter-paragraph', item) for item in data['paragraphs'])
         out.extend([p('closing', data['closing']), p('signature', data['name'])])

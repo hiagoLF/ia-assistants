@@ -18,7 +18,7 @@ Resume acrescenta `headline`, `summary`, `jobs`, `education`, `courses`, `langua
 
 ```json
 {
-  "title": "Cargo histórico verdadeiro",
+  "title": "Senior Frontend Software Engineer",
   "company": "Empresa",
   "location": "Cidade, Brazil (remote)",
   "dates": "11/2022 – Present",
@@ -33,6 +33,6 @@ Resume acrescenta `headline`, `summary`, `jobs`, `education`, `courses`, `langua
 
 Em resumes adaptados, conte as palavras de cada string de `achievements` por espaços, incluindo as tecnologias e sem o marcador. Cada item deve ter de 35 a 65 palavras e seguir a ordem o que foi feito → resultados e métricas → tecnologias. Use resultado qualitativo confirmado quando não houver métrica numérica. Não reformule livremente `description`: preserve o texto original, permitindo apenas ajustes pontuais de palavras-chave sustentados pelos fatos. Essas regras são verificadas na preparação do conteúdo; o renderer não valida a redação nem a contagem de palavras. As fixtures históricas permanecem intactas.
 
-Cover letter acrescenta `salutation`, `paragraphs` (lista de parágrafos textuais), `closing`. A assinatura usa `name`. Os fixtures `assets/source-*.json` demonstram a estrutura completa, mas seu texto é histórico e não serve como fonte de verdade atualizada.
+Cover letter acrescenta `salutation`, `paragraphs` (lista de parágrafos textuais), `closing` e, opcionalmente, `headline`, exibido abaixo do nome. A assinatura usa `name`. Defina `headline` independentemente para cada documento: `Senior Frontend Software Engineer` para vagas predominantemente frontend ou `Senior Software Engineer` para fullstack/engenharia de software mais ampla. Os títulos podem diferir entre resume e carta. Aplique a mesma adaptação aos cargos históricos em `jobs[].title` e às menções a cargos na carta, conforme autorizado pelo usuário, preservando os fatos das realizações. Os fixtures `assets/source-*.json` demonstram a estrutura completa, mas seu texto é histórico e não serve como fonte de verdade atualizada; mantenha-os intactos.
 
 Antes da geração, aplique às strings as correções autorizadas das referências; especialmente não copie a métrica antiga da fixture de cover letter.
