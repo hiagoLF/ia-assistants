@@ -18,7 +18,7 @@ impact for businesses and individuals.
 • Developed the mobile workout creation module for a gym management app, enabling personal trainers to create
 and modify workouts that members could follow in the same app. This improved trainer–member interaction and
 increased member engagement by 40%, as measured by gym attendance reports. Technologies used: React Native,
-Expo, TypeScript, Supabase, Firebase, and Google OAuth.
+Expo, TypeScript, Supabase, Firebase, and Google OAuth. **NOTA**: Utilize essa experiência apenas quando necessário
 • Built a 3D renderer to display chart details within a React administrative dashboard, enabling administrators
 to zoom in and out on specific points for a clearer view of individual items. Technologies used: Three.js,
 React, Next.js, HTML, CSS, and TypeScript. **NOTA**: Utilize essa experiência apenas quando necessário
@@ -31,8 +31,8 @@ visual roadmap of the lessons, exercises, and materials needed to complete the c
 student engagement and, additionally, boosted the number of materials consumed on the platform by 5x.
 Technologies used: React, Sass, Next.js, React Native, and Styled Components.
 • Acted as Lead Software Engineer for a fullstack team, guiding, monitoring, developing, and helping define
-development standards using technologies such as React, React Native, Node, Next, Prisma, Postgres, Mongo,
-Firebase, and GraphQL, which helped orient and organize the team, improving feature delivery speed by 4x.
+development standards using technologies such as React, React Native, Vite, Node, Next, Prisma, Postgres, Mongo,
+Firebase and GraphQL, which helped orient and organize the team, improving feature delivery speed by 4x.
 • Developed the frontend of an "installment payment" module within a real estate application where clients pay
 their property financing, which facilitated client's visibility into already paid and future bank slips, reducing
 overdue payments by 80% compared to when slips were sent only via email or mail; utilized React Native and
@@ -61,22 +61,26 @@ withdraw accumulated funds whenever they wished. This feature encouraged sellers
 and increased sales by 25%; utilized React, Bootstrap, Node.js and MySql.
 • Developed a module that allowed administrators at Novo Horizonte to manage money received via paid bank
 slips, which sped up the reconciliation time by 10x compared to previously receiving cash and counting
-manually; utilized React, Bootstrap, Node.js, and MySQL.
+manually; utilized React, Vite, Bootstrap, Node.js, and MySQL.
 Skills: React, React Native, Next, Typescript, Node, MySql, Bootstrap
+
 Bioinformatics Software Engineer Intern
 Federal University of Bahia (UFBA) | Vitória da Conquista, Bahia, Brazil (remote) 07/2021 – 01/2022
 • Developed a full-stack web application for predicting transmembrane regions in proteins, which was adopted by
 university researchers and students as their analysis tool, accelerating their molecular biology research and improving
 research development efficiency; utilized React, TypeScript and Node Js.
 Skills: React, Next, Typescript, Node, PostgreSQL
+
 Education
 Frontend Engineering – Rocketseat, Brazil (2021 - 2022)
 BSc in Biotechnology – UFBA - Federal University of Bahia, Brazil (2017 - 2022)
+
 Courses
 Android App Development using Kotlin – Udemy
 Ignite React Track – Rocketseat
 Complete API with AdonisJS 5, TypeScript, and TDD – Udemy
 RESTful API with JavaScript, Node.js, TypeScript, TypeORM, etc – Udemy
+
 Languages
 English: Full professional proficiency - C1
 Portuguese: Native
