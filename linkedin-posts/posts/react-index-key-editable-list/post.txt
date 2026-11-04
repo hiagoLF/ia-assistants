@@ -1,0 +1,27 @@
+You remove a row from a list, but the text you typed appears under another item. The key might be the problem.
+
+Imagine an editable list with Ana, Bruno, and Carla. Each row has a notes field stored in the component’s local state.
+
+You type “Send proposal” in Bruno’s row.
+
+With key={index}, the identities are the positions: 0, 1, and 2.
+
+Now remove Ana.
+
+Bruno moves to position 0. Carla moves to position 1.
+
+React reuses the components at those positions. The state previously associated with Bruno’s row, at key 1, now appears in Carla’s row.
+
+The array can be correct while the interface associates your edit with the wrong person.
+
+Reordering can cause the same issue: the items change positions, but local state stays associated with the index-based keys.
+
+Use a stable item identity, such as key={person.id}.
+
+React can then track Bruno even when his position changes, preserving the state of his row.
+
+That ID should exist in your data and remain stable. Generating a random key during rendering also causes problems: it recreates the components and loses their state.
+
+An index can work for a static list. For an editable list with removal or reordering, prefer a stable ID that is unique among sibling items.
+
+Have you ever seen an input seem to “change owners” after updating a list?
