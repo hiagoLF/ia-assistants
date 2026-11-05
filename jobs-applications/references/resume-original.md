@@ -18,14 +18,14 @@ impact for businesses and individuals.
 • Developed the mobile workout creation module for a gym management app, enabling personal trainers to create
 and modify workouts that members could follow in the same app. This improved trainer–member interaction and
 increased member engagement by 40%, as measured by gym attendance reports. Technologies used: React Native,
-Expo, TypeScript, Supabase, Firebase, and Google OAuth. **NOTA**: Utilize essa experiência apenas quando necessário
+Expo, TypeScript, Supabase, Firebase, and Google OAuth.
 • Built a 3D renderer to display chart details within a React administrative dashboard, enabling administrators
 to zoom in and out on specific points for a clearer view of individual items. Technologies used: Three.js,
-React, Next.js, HTML, CSS, and TypeScript. **NOTA**: Utilize essa experiência apenas quando necessário
+React, Next.js, HTML, CSS, and TypeScript.
 • Contributed to rewriting the frontend of a logistics company's ERP system, migrating from React CLI to Svelte.
 The rewrite made the code easier for the team to understand, accelerated maintenance, and reduced the final
 application bundle size by 30%, improving initial load time. Technologies used: Svelte, React, TypeScript, HTML,
-and CSS. **NOTA**: Utilize essa experiência apenas quando necessário
+and CSS.
 • Developed the frontend of a "Knowledge Paths" module within a course application, providing students with a
 visual roadmap of the lessons, exercises, and materials needed to complete the course. This feature increased
 student engagement and, additionally, boosted the number of materials consumed on the platform by 5x.
@@ -62,7 +62,10 @@ and increased sales by 25%; utilized React, Bootstrap, Node.js and MySql.
 • Developed a module that allowed administrators at Novo Horizonte to manage money received via paid bank
 slips, which sped up the reconciliation time by 10x compared to previously receiving cash and counting
 manually; utilized React, Vite, Bootstrap, Node.js, and MySQL.
-Skills: React, React Native, Next, Typescript, Node, MySql, Bootstrap
+• Investigated incorrect discount calculations in ticket sales by reproducing the issue with a Jest integration
+test using SQLite in place of MySQL. Fixed the backend calculation logic and expanded integration test coverage
+to previously untested discount scenarios. Technologies used: Node.js, Jest, SQLite, and MySQL.
+Skills: React, React Native, Next, Typescript, Node, MySql, Bootstrap, Jest, SQLite
 
 Bioinformatics Software Engineer Intern
 Federal University of Bahia (UFBA) | Vitória da Conquista, Bahia, Brazil (remote) 07/2021 – 01/2022
