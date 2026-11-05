@@ -1,0 +1,25 @@
+The API returned 200 OK. TypeScript accepted the code. The screen still crashed.
+
+Suppose your app expects a user whose name is a string. You use as User on the response and call user.name.toUpperCase(). If the API sends { "name": null }, that call fails.
+
+A type describes the shape your code expects. Runtime validation checks whether the data you actually received matches that shape. A type assertion like as User only changes how the compiler treats the value.
+
+With Zod, you can define a schema and validate the response like this:
+
+const UserSchema = z.object({ name: z.string() })
+const payload: unknown = await response.json()
+const result = UserSchema.safeParse(payload)
+
+If name is null, result.success is false and result.error tells you what went wrong. If validation succeeds, TypeScript already knows that result.data.name is a string.
+
+Each library has its strengths:
+
+Zod infers TypeScript types from the same schemas you use for validation.
+
+Yup works well for forms with conditional rules, like requiring one field based on another field's value. It also supports transforming values.
+
+Joi offers expressive rules for validating objects, like requiring one property when another is present in an API request.
+
+Ajv compiles schemas into reusable validation functions. It fits well when your API contract is already written in JSON Schema.
+
+Where in your code do you validate the data you get from an API?

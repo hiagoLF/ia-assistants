@@ -11,8 +11,8 @@ Entreviste o usuário até haver entendimento compartilhado da candidatura. Expl
 
 Faça **todas as perguntas da rodada juntas**, em português, numeradas, organizando as relacionadas. Dê sua recomendação quando houver uma decisão real. Aguarde as respostas; depois faça outro grupo apenas se necessário para esclarecer lacunas materiais. Não presuma respostas por decurso de tempo.
 
-Para cada requisito relevante sem evidência, pergunte se existe experiência não documentada e peça que o usuário a escreva no estilo do currículo original, em 35 a 65 palavras, na ordem: descrição do que foi feito → resultados e métricas → tecnologias. Solicite contexto e ação pessoal. Se não houver métrica, peça um resultado qualitativo confirmado; nunca sugira inventar números. Evite perguntas genéricas quando a vaga permitir uma pergunta concreta.
+Não faça perguntas para verificar domínio de tecnologias ou experiência técnica. Na adaptação de candidatura, siga a regra de summary da skill `../fit-resume-for-job/SKILL.md` e informe quais competências novas serão incluídas. Restrinja as perguntas a informações fora das experiências.
 
 Inclua na rodada: permissões separadas de uso atual e persistência de fatos novos, perguntas e limites do formulário, e necessidade de cover letter quando solicitada ou exigida pela vaga (resume é o padrão). As decisões padrão de idioma, páginas, versões e renderização já estão registradas na skill `../fit-resume-for-job/SKILL.md`; não peça confirmação delas a cada execução.
 
-Se o usuário não quiser responder, use apenas os fatos disponíveis, indique lacunas sem inventá-las e prossiga com o escopo que ele autorizar.
+Se o usuário não quiser responder, prossiga com o escopo que ele autorizar.

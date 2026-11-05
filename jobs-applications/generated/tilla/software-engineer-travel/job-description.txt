@@ -1,0 +1,56 @@
+We are a growing SaaS start-up with an international team, operating on the intersection between two of the world's most fascinating industries - global shipping and global travel.
+
+Over 90% of global trade depends on ships, and the shipping industry depends on the 2 million seafarers who operate them. What most people don't know is there's a complex, mission-critical travel operation going on 24/7 to bring seafarers to the ships where they're needed, when they're needed. That's called crew logistics, and without it, global trade wouldn't function.
+
+But it's an operation often built on manual processes and legacy systems, meaning high-stress for operators, an unreliable experience for seafarers, and poor outcomes for the industry. That is until Tilla enters the scene.
+
+Backed by strong investor support, with more than 10,000 crew changes executed in the platform each year across over 600 vessels globally, our platform is a game changer in crew logistics, streamlining collaboration between operators and seafarers, making crew operations more humane, efficient, and cost-effective.
+
+Join us on the next chapter of our growth journey and tackle this overlooked yet critical global challenge: every crew change, optimized and digital.
+
+Your mission
+
+Build and maintain the Travel services that get seafarers onto the right flights, shipping well-tested features across our TypeScript stack as part of the Travel team. You'll start by taking pressure off the team by solving bugs, serving customer requests and leading investigations, and progress into owning Travel services of your own.
+
+✈️ Keeping travel operations dependable / by resolving bugs and customer requests quickly and properly
+
+- Investigating and fixing bugs across the Travel services, reproducing each scenario before changing any code
+- Handling day-to-day technical requests from customers and colleagues, and explaining what went wrong in plain terms
+- Adding logging and metrics to what you build, and following runbooks when alerts fire
+
+🧭 Unlocking the product roadmap / by shipping well-defined features end to end
+
+- Building features across the frontend (React, Next.js) and backend (NestJS, GraphQL, Prisma) in Linear sprints
+- Breaking work into clear steps, surfacing assumptions early, getting feedback on technical decisions and keeping progress and blockers visible
+- Writing unit and integration tests, and acting on code review feedback
+
+📈 Building depth in a sensitive domain / by growing into ownership of Travel services
+
+- Learning how flight bookings, fares and travel aggregation work, and how they connect to crew changes
+- Taking ownership of a Travel service module over time, including its uptime, bug rates and resolution times
+- Sharing what you learn through clear pull request descriptions and team documentation
+
+You should have
+
+- Experience: early-career professional experience as a software engineer, building web applications across both frontend and backend.
+- Experience: working knowledge of TypeScript and React, and some exposure to Node.js backends. Familiarity with any of Next.js, NestJS, GraphQL, Prisma, Apollo Client, React Query, ShadCN, AWS (Lambda, SQS, RDS, ECS), Jest or Playwright is useful; we don't expect all of it.
+- Experience: exposure to GDS systems (like Amadeus) or travel aggregator platforms is a plus.
+- A high degree of ownership: you take a task from ticket to production and see it through.
+- Sound engineering fundamentals: readable code, sensible tests, and systematic debugging.
+- Technical depth and curiosity: you want to understand how the wider system works, not only the part in front of you.
+- A genuine interest in travel and flight booking, and a willingness to learn the industry in depth.
+- The ability to explain technical issues simply to customers and non-technical colleagues.
+- Clear, proactive communication about progress, risks and blockers.
+- A collaborative approach: you work well with other engineers, ask for help when it's the quicker route, and act on feedback.
+- Experience or interest in early-stage or growth-stage startups.
+- Fluency in English. Other languages are a plus.
+- Based in EMEA or LATAM, with good working-hours overlap with the rest of the Travel team.
+
+Why Join Us?
+
+- Tackle a unique industry challenge with global impact
+- Be part of an international, mission-oriented, supportive and fun team
+- Do your best work, with leading-edge AI tools for all team members
+- Benefit from support and budget for your learning and development
+
+We believe that employing a diverse workforce is central to our success at Tilla. We make hiring decisions based on your experience and skills. Therefore, we welcome applications from all members of society, regardless of age, gender, disability, sexual orientation, race, religion or belief.

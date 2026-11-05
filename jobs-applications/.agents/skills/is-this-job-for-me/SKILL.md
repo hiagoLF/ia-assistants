@@ -27,7 +27,7 @@ Eliminar quando houver confirmação de:
 
 1. Ler a descrição inteira, inclusive rodapé e instruções de candidatura. Para links, abrir a fonte original. Se inacessível, pedir o texto; não alegar leitura integral.
 2. Usar informações fornecidas ou verificadas. Quando necessário e possível, consultar fontes oficiais para esclarecer condições omitidas. Não presumir elegibilidade pelo título “remote”, sede estrangeira ou salário anunciado em dólares.
-3. Distinguir requisitos obrigatórios, diferenciais e ausências. Não inventar qualificações do usuário além do perfil informado. Considerar requisitos específicos de experiência sem presumir domínio de outras tecnologias.
+3. Distinguir requisitos obrigatórios, diferenciais e ausências. Considerar os requisitos específicos de experiência da vaga.
 4. Comparar salário base fixo, moeda e periodicidade; não somar bônus incertos ou benefícios. Dividir valores anuais por 12. Se toda a faixa estiver abaixo do piso, eliminar; se cruzar o piso, marcar negociação pendente. Para pagamento horário, não presumir horas garantidas. Distinguir moeda de referência de moeda efetiva de pagamento.
 5. Para EUR, verificar câmbio atual e indicar brevemente taxa, data e fonte ao comparar com o mínimo em USD; sem taxa verificável, deixar equivalência pendente.
 6. Dar “Não compatível” com qualquer eliminatório confirmado. Dar “Potencialmente compatível — confirmar condições” quando faltarem condições essenciais ou a faixa cruzar o piso. Dar “Compatível” somente com condições essenciais confirmadas. Nunca tratar salário omitido ou localização indefinida como reprovação confirmada.
