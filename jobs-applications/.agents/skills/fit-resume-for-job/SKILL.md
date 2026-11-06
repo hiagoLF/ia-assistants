@@ -57,12 +57,18 @@ cover-letter-20261101-170000-0300-a1b2c3.pdf
 
 Use o helper `scripts/new_run.py` para criar slugs e obter caminhos inéditos. Sem `--kind`, ele retorna caminhos para resume e cover letter; isso não obriga a gerar a carta. Não escreva HTML, JSON, cache ou imagens em `generated/`: mantenha intermediários numa pasta temporária e remova-os após validar. Os arquivos finais da candidatura são os PDFs solicitados e o TXT da descrição da vaga, conforme a regra abaixo. Materiais de entrevista existentes pertencem ao fluxo separado e devem ser preservados.
 
-## Descrição da vaga em TXT
+## Descrição da vaga em TXT — entrega obrigatória
 
-Somente quando o usuário pedir a geração de resume, cover letter ou ambos, salve também a descrição completa da vaga em `job-description.txt`, na mesma pasta `generated/<empresa-slug>/<vaga-slug>/` dos documentos. Preserve o conteúdo fornecido ou obtido da fonte, sem inventar título, requisitos ou informações da empresa. Não gere esse TXT em avaliações de vagas, conversas exploratórias ou preparação exclusiva de entrevista. O TXT é uma referência da vaga, não um registro separado de acompanhamento ou status.
+**Toda geração de resume, cover letter ou ambos deve incluir `job-description.txt`, mesmo que o usuário peça apenas os PDFs e não mencione o TXT.** Salve a descrição completa da vaga na mesma pasta `generated/<empresa-slug>/<vaga-slug>/` dos documentos. Essa entrega faz parte da geração dos materiais e não exige um pedido separado.
+
+Use o texto integral fornecido na conversa, no anexo ou obtido da página da vaga. Preserve o idioma e o conteúdo da fonte; não substitua a descrição por um resumo, análise ou lista de palavras-chave, nem invente título, requisitos ou informações da empresa. Quando a fonte for um TXT anexado, copie seu conteúdo integral.
+
+Antes de concluir, confirme que `job-description.txt` existe na pasta da candidatura, não está vazio e contém a descrição completa da fonte utilizada. Se já existir, confira seu conteúdo antes de decidir se precisa atualizá-lo. A entrega dos materiais está incompleta enquanto esse arquivo estiver ausente.
+
+Não gere esse TXT em avaliações de vagas, conversas exploratórias ou preparação exclusiva de entrevista. O TXT é uma referência da vaga, não um registro separado de acompanhamento ou status.
 
 ## Encerramento
 
-Ao concluir, forneça links dos materiais, páginas de cada PDF, respostas do formulário e lacunas relevantes. O único registro de candidatura são os arquivos de resume, cover-letter e interview em `generated/`; não crie arquivos separados de acompanhamento ou status. Não modifique as referências sem a autorização correspondente.
+Ao concluir uma geração, confira os PDFs solicitados e o `job-description.txt` obrigatório. Forneça links dos PDFs e do TXT, páginas de cada PDF, respostas do formulário e lacunas relevantes. Os materiais da candidatura em `generated/` incluem resume, cover-letter, interview e a descrição da vaga em TXT, conforme o fluxo aplicável; não crie arquivos separados de acompanhamento ou status. Não modifique as referências sem a autorização correspondente.
 
 A preparação para entrevista pertence exclusivamente à skill `../prepare-for-job-interview/SKILL.md`. Não a invoque nem gere `interview-*.md` automaticamente ao adaptar o currículo, mesmo se houver entrevista marcada. Aguarde pedido explícito do usuário.
