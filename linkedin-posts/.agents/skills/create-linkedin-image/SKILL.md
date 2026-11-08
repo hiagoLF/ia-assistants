@@ -12,6 +12,7 @@ Read the selected topic's final `posts/<topic-slug>/post.txt` when available and
 - Create an image for a LinkedIn programming post with a minimalist style.
 - Use a diagonal gradient from `#64559A` to `#836C8B` as the background.
 - Use a square composition, targeting 1200 × 1200 pixels for the final asset when supported by the generation tool.
+- Use default outer margins of 6% of the canvas width on both left and right, and 6% of the canvas height on both top and bottom (72 px per side at 1200 × 1200). Scale these margins proportionally for other output sizes. Keep all text and panel edges inside this safe area; the background extends to the canvas edges. Reduce font sizes or reflow lines when necessary to fit, preserving code syntax and readability rather than shrinking the margins.
 - The final result must be entirely in English, including all headings, labels, captions, and code comments. Preserve programming syntax and API identifiers.
 - Show the supplied content with a clear hierarchy, readable typography, ample whitespace, and sufficient contrast against the gradient.
 - Avoid unnecessary icons and decorative elements that detract from the minimalist style.
@@ -23,6 +24,6 @@ Use the available image-generation tool and follow its applicable image-generati
 
 Save the final image as `posts/<topic-slug>/image.png`, alongside its post. For an image-only request, create the topic folder without inventing an unrequested post. Preserve an existing image unless a revision was requested; save additional variants with descriptive names in the same folder.
 
-Inspect the generated image before delivering. Check English-only text, spelling, code accuracy, readability, gradient, and consistency with the post. Correct defects before handing it over. If the target dimensions are unsupported, report the actual dimensions without claiming an exact size.
+Inspect the generated image before delivering. Check English-only text, spelling, code accuracy, readability, gradient, outer margins, and consistency with the post. Correct defects before handing it over. If the target dimensions are unsupported, report the actual dimensions without claiming an exact size.
 
 Show the final image and link to the saved file. Keep the accompanying interaction in the user's language.
