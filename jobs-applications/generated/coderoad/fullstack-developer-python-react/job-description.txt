@@ -1,0 +1,69 @@
+Fullstack Developer (Python/ React)
+Latin America
+Engagement Type: [Full-Time / Contractor]
+
+ 
+About CodeRoad
+CodeRoad is a technology execution partner trusted by companies across North America since 2002. We work alongside our clients to engineer, modernize, and scale the technology that powers their businesses, combining deep technical expertise, specialized teams, and shared accountability for outcomes. Our capabilities span product engineering, platform engineering, legacy modernization, and AI engineering.
+
+Our engineers, designers, delivery leaders, and technology specialists collaborate through Velocity Studios: specialized teams developed within CodeRoad to deliver complex technology initiatives. Being assigned to a project means you become part of a collaborative environment where you can strengthen your expertise, take ownership of meaningful work, and grow alongside experienced professionals.
+
+Why Build Your Career at CodeRoad?
+High-Velocity Work & Client Exposure: We work close to the technology, teams and roadmaps that move real outcomes. Direct engagement with U.S. client teams and roadmaps.
+
+Career Continuity & Long-Term Opportunity: Your career here can outlast any single project. Continuous multi-project pipeline; long-tenure CodeRoaders.
+
+Engineering Autonomy & Technical Mastery: We invest in the skills that shape what's next. Agentic AI tools and training, Coursera Enterprise, Studio practice labs, L1-L7 Career Framework.
+
+High-Trust Employee Experience: You grow in an environment built on trust, transparency and recognition. High-touch onboarding, transparent leadership communication, community recognition, psychological safety.
+
+ 
+
+Key Responsibilities
+Modernize & Migrate Legacy Applications: Contribute to the migration of existing Delphi and Zoho applications into modern web architectures, helping transform legacy functionality into scalable, maintainable solutions. Apply transferable legacy modernization experience when working with unfamiliar platforms.
+
+Develop & Maintain Full Stack Applications: Build and enhance frontend features using React and backend services using Python and Django. Work across both frontend and backend components to deliver reliable, end-to-end functionality.
+
+Develop & Integrate Zoho Solutions: Support and enhance Zoho applications, including CRM, Creator, Desk, Books, and Analytics. Implement custom functions, workflows, and business process automation using Deluge where applicable.
+
+Maintain & Improve Legacy Systems: Investigate, troubleshoot, and enhance existing Delphi (Object Pascal) applications, identifying opportunities to improve functionality and support their transition to modern technologies.
+
+Design APIs & System Integrations: Develop and consume RESTful APIs, webhooks, and integrations that enable reliable communication between legacy applications, modern web services, databases, and third-party platforms.
+
+Manage Data & Database Performance: Write and optimize SQL queries, support data migration and validation, and maintain data integrity across Microsoft SQL Server and other relational database systems.
+
+Leverage AI to Improve Development: Proactively use AI-assisted coding and development tools to accelerate implementation, understand legacy codebases, generate and validate tests, troubleshoot issues, and identify opportunities to improve engineering workflows.
+
+Collaborate & Deliver Quality Code: Work with senior engineers, product teams, and business stakeholders to translate requirements into well-tested, documented solutions. Follow established Git, code review, and CI/CD practices while taking ownership of assigned tasks.
+
+ 
+
+ 
+
+What You Bring
+Core Experience: 2–4 years of professional software development experience, with hands-on experience in full stack development, legacy application maintenance, system integrations, or legacy modernization projects.
+
+Python & Full Stack Development: Hands-on experience with Python, preferably Django, and modern JavaScript or TypeScript development. React experience is preferred. Strong SQL skills are required.
+
+Legacy Modernization Experience: Experience maintaining, migrating, refactoring, or modernizing legacy applications. The ability to understand existing codebases and transition legacy functionality to modern architectures is essential.
+
+Zoho & Delphi (Nice to Have): Familiarity with Delphi (Object Pascal), Zoho platforms, Deluge scripting, or Zoho workflow automation is an advantage, but not required. Candidates with strong legacy migration experience and Python expertise are encouraged to apply, even if they have not worked with Zoho or Delphi.
+
+APIs, Integrations & Databases: Solid understanding of REST APIs, webhooks, JSON, and relational databases, particularly Microsoft SQL Server.
+
+Cloud & Engineering Practices: Familiarity with Git, version control, code reviews, and CI/CD workflows. Azure is preferred, although AWS or GCP experience is also valuable.
+
+AI-Driven Development: A proactive approach to using AI tools to accelerate coding, understand unfamiliar codebases, automate repetitive tasks, improve testing, and solve technical problems. Practical experience with AI-assisted development tools and a willingness to explore new AI capabilities are highly valued.
+
+ 
+
+What You’ll Love
+USA Contractor / 100% Remote
+
+Competitive Pay (USD)
+
+Holidays Off & Paid Time Off
+
+Health insurance assistance program
+
+Opportunity to work with high-growth US-based companies and cutting-edge tech stacks.

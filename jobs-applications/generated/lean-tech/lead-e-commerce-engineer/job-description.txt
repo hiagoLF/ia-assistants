@@ -1,0 +1,65 @@
+Lead E commerce Engineer
+
+Software Engineering & Architecture
+
+Apply: https://jobs.jobvite.com/leantechio/job/oj03AfwG/apply
+
+Description
+
+Company Overview: Global Technology Services is a rapidly expanding organization situated in Medellín, Colombia.We pride ourselves on possessing one of the most influential networks within software development and IT services for the entertainment, financial, and logistics sectors. Our corporate projections offer a multitude of opportunities for professionals to elevate their careers and experience substantial growth. Joining our team means engaging with expansive engineering teams across Latin America, Philippines and the United States, contributing to cutting-edge developments in multiple industries.
+
+Position Title: Lead E commerce Engineer
+
+Seniority: Senior
+
+Location: Remote
+
+What you will be doing:
+
+- Develop and optimize scalable web applications using TypeScript, React, Next.js (App Router, SSR/SSG/ISR), and Redux.
+- Design, build, and version REST and/or GraphQL APIs using Node.js with robust error handling.
+- Architect and manage serverless backend infrastructure on AWS utilizing Lambda, Batch, API Gateway, Step Functions, S3, CloudFront, and DynamoDB.
+- Implement and manage event-driven architectures and webhooks using SQS, SNS, SES, and EventBridge, ensuring message ordering and idempotency.
+- Optimize frontend delivery for Core Web Vitals (LCP, CLS, INP), image optimization, code splitting, and WCAG 2.1 AA accessibility.
+- Manage Elasticsearch clusters (index design, relevance tuning, reindexing) and Redis caching strategies (cache invalidation, TTLs, rate limiting).
+- Follow trunk-based development with short-lived branches, small frequent merges, and feature flags to ship code safely.
+- Maintain observability and monitoring using structured logging, metrics, and distributed tracing (OpenTelemetry) via CloudWatch, Datadog, or Grafana.
+- Conduct thoughtful code reviews and maintain secure coding practices (OWASP Top 10) and secrets management.
+
+Required Skills & Experience:
+
+- Advanced proficiency in TypeScript, React, Next.js, and Node.js.
+- Strong experience with responsive, mobile-first design using Tailwind CSS or Bootstrap.
+- Deep understanding of AWS serverless ecosystems, event queues, and IAM fundamentals (least-privilege access).
+- Experience with relational databases (PostgreSQL or similar) and data modeling.
+- Proven background in automated unit, integration, and end-to-end testing (Jest, React Testing Library, Playwright,or Cypress).
+- Experience with CI/CD pipelines (GitHub Actions, GitLab CI) including automated testing gates and safe rollback.
+- Proficiency with Infrastructure as Code (Terraform, AWS CDK, or SAM) and Docker/containerization basics.
+- Production on-call experience and incident response capabilities, including writing postmortems.
+
+Nice to Have Skills:
+
+- CMS / visual builder experience (Builder.io highly preferred, or Contentful, Sanity, Strapi).
+- Payment processor integrations (Stripe, Adyen, Braintree, or Authorize.net) including fraud prevention,tokenization, and reconciliation.
+- Familiarity with PCI DSS compliance scope and securing card data.
+- E-commerce domain knowledge (carts, checkout flows, inventory, order management).
+- Experience utilizing AI-assisted development tools as part of a daily workflow.
+
+Soft Skills:
+
+- Strong ownership, with comfort shipping small increments to production frequently.
+- Clear written and verbal communication with product, design, and business partners.
+- Willingness to mentor others and share knowledge across the engineering team.
+
+Why you will love Global Technology Services:
+
+- Join a powerful tech workforce and help us change the world through technology
+- Professional development opportunities with international customers
+- Collaborative work environment
+- Career path and mentorship programs that will lead to new levels.
+
+Join GTS and contribute to shaping the technology landscape within a dynamic and growing organization. Your skills will be honed, and your contributions will play a vital role in our continued success. Lean Tech is an equal opportunity employer. We celebrate diversity and are committed to creating an inclusive environment for all employees.
+
+Disclaimer
+
+We may use artificial intelligence (AI) tools to support parts of the hiring process, such as reviewing applications, analyzing resumes, or assessing responses. These tools assist our recruitment team but do not replace human judgment. Final hiring decisions are ultimately made by humans. If you would like more information about how your data is processed, please contact us.

@@ -1,0 +1,11 @@
+Custom hooks: What responsibility are you extracting?
+
+I've seen plenty of React Native components full of functions for validating fields, fetching data, and saving drafts. When those responsibilities are tangled up in one component, the code gets harder to read and maintain, and individual behaviors are harder to reuse on another screen.
+
+Imagine a draft editor. It renders the text input and updates the draft as you type. Every edit also cancels the previous timer and starts a new one. When the timer fires, the editor saves the draft on the device.
+
+Extracting useDraftAutosave(draft) keeps those autosave rules together. A single line in the component tells you the draft is saved automatically. If you need to change how long autosave waits, you can follow the rules inside the hook without digging through the UI code. Another screen can call the same hook if it needs that behavior.
+
+Before extracting a hook, try finishing the sentence “This hook handles…” If you can say “saving a draft after the user pauses typing,” you've found a responsibility you can understand on its own. That can make the code easier to read even if only one screen uses the hook. If your answer is “the editor logic,” take another look at the responsibilities you've grouped together.
+
+How would you finish that sentence for the last hook you extracted?

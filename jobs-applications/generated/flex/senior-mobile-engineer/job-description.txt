@@ -1,0 +1,19 @@
+[Senior Mobile Engineer | React Native | Remote from LATAM | USD]
+
+We’re hiring a Senior Mobile Engineer for Flex, a Series B US marketplace that’s changing how people move and store their stuff 📦
+
+🚀 Help shape the React Native architecture across two apps (consumer and supplier)
+📍 Own features end to end: booking, live status, crew and item tracking, tipping and reviews
+🔗 Integrate with a NestJS backend via GraphQL and REST
+🤖 Ship fast with AI tools (Cursor, Codex, Copilot), with solid judgment on what goes to production
+🤝 Join a small, product-focused team with designs ready and high autonomy
+
+Requirements:
+6+ years in mobile engineering, with a strong focus on React Native and TypeScript
+Experience shipping a mobile product from zero to production and scaling it
+Deep knowledge of mobile architecture: navigation, state management, offline handling, and performance
+Node.js experience to help on the backend
+Advanced English | Based in LATAM | EST overlap
+
+🌎 Remote | USD compensation | Unlimited PTO
+👉 Apply in the first comment

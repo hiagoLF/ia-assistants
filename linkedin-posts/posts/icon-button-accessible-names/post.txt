@@ -1,0 +1,11 @@
+An icon-only button needs a name, too
+
+Imagine navigating with a screen reader and hearing only “button.” You know there’s a control there. What happens if you activate it?
+
+On the web, use a native button element. If it contains only an icon, give it an accessible name with aria-label. Choose a name that tells people what they need to know before they act.
+
+An X icon can be labeled “Close window.” If every file in a list has a trash icon, “Delete report.pdf” tells people which file that button deletes.
+
+For a button that opens and closes the site navigation, use a name like “Navigation menu.” Update aria-expanded to communicate whether the menu is open or closed.
+
+Next time you review a page, press Tab to move through it with a screen reader running. Can you tell what each icon button does from what you hear?

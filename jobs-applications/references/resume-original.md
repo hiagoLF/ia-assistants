@@ -65,7 +65,11 @@ manually; utilized React, Vite, Bootstrap, Node.js, and MySQL.
 • Investigated incorrect discount calculations in ticket sales by reproducing the issue with a Jest integration
 test using SQLite in place of MySQL. Fixed the backend calculation logic and expanded integration test coverage
 to previously untested discount scenarios. Technologies used: Node.js, Jest, SQLite, and MySQL.
-Skills: React, React Native, Next, Typescript, Node, MySql, Bootstrap, Jest, SQLite
+• Developed a fullstack application for issuing bus tickets under a city-funded free travel benefit, including unit
+and integration tests to validate functionality and component interactions. The system simplified ticket issuance
+for the city administration by replacing paper forms that previously had to be delivered to the bus company.
+Technologies used: React, Python, Django, pytest, and Simple JWT.
+Skills: React, React Native, Next, Typescript, Node, MySql, Bootstrap, Jest, SQLite, Python, Django, pytest, Simple JWT
 
 Bioinformatics Software Engineer Intern
 Federal University of Bahia (UFBA) | Vitória da Conquista, Bahia, Brazil (remote) 07/2021 – 01/2022

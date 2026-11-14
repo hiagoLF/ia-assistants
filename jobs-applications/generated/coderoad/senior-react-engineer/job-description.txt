@@ -1,0 +1,46 @@
+Senior React Engineer
+
+svg
+
+Latin America
+
+Engagement Type: Full-Time / Contractor
+
+About CodeRoad
+
+CodeRoad is a technology execution partner trusted by companies across North America since 2002. We work alongside our clients to engineer, modernize, and scale the technology that powers their businesses, combining deep technical expertise, specialized teams, and shared accountability for outcomes. Our capabilities span product engineering, platform engineering, legacy modernization, and AI engineering.
+
+Our engineers, designers, delivery leaders, and technology specialists collaborate through Velocity Studios: specialized teams developed within CodeRoad to deliver complex technology initiatives. Being assigned to a project means you become part of a collaborative environment where you can strengthen your expertise, take ownership of meaningful work, and grow alongside experienced professionals.
+
+Why Build Your Career at CodeRoad?
+
+- High-Velocity Work & Client Exposure: We work close to the technology, teams and roadmaps that move real outcomes. Direct engagement with U.S. client teams and roadmaps.
+- Career Continuity & Long-Term Opportunity: Your career here can outlast any single project. Continuous multi-project pipeline; long-tenure CodeRoaders.
+- Engineering Autonomy & Technical Mastery: We invest in the skills that shape what's next. Agentic AI tools and training, Coursera Enterprise, Studio practice labs, L1-L7 Career Framework.
+- High-Trust Employee Experience: You grow in an environment built on trust, transparency and recognition. High-touch onboarding, transparent leadership communication, community recognition, psychological safety.
+
+Key Responsibilities
+
+- Lead Frontend Architecture: Own the technical health, rendering performance, and architectural evolution of complex, responsive web applications using React.js, TypeScript, and ES6+.
+- Architect Scalable UI Systems: Build and maintain modular component libraries, design system integrations (Figma handoffs), and modern CSS architectures using Tailwind CSS, Styled Components, or CSS Modules.
+- Orchestrate State & Data Flow: Design clean integration layers and efficient state management solutions using modern paradigms (Redux Toolkit, Zustand, React Query, or Context API) to consume RESTful or GraphQL APIs.
+- Optimize Web Performance & Quality: Proactively audit and refine Core Web Vitals, bundle sizes, and rendering efficiency while enforcing quality through comprehensive unit and integration testing (Jest, React Testing Library, Cypress).
+- Automate Tooling & Deployment: Establish modern build configurations (Vite, Webpack) and maintain frontend CI/CD deployment pipelines across cloud environments (Vercel, AWS S3/CloudFront, Azure App Services).
+- Elevate Engineering Standards: Drive deep code reviews, proactively manage technical debt, author clear technical documentation, and mentor mid-level and junior engineers in nearshore agile teams.
+
+What You Bring
+
+- Core Experience: 5+ years of dedicated professional frontend engineering experience with a primary focus on architecting and scaling production React applications.
+- React & Ecosystem Mastery: Advanced expertise in React.js, TypeScript, modern state management (Redux Toolkit, Zustand, React Query), and component-driven architecture.
+- Styling, Tooling & Testing: Deep fluency in modern CSS architectures (Tailwind CSS, Styled Components), build tools (Vite, Webpack), and automated testing frameworks (Jest, RTL, Cypress).
+- Cloud & DevOps Integration: Strong knowledge of Git workflows, CI/CD pipelines, and modern static site/SPA hosting ecosystems (AWS S3/CloudFront, Vercel).
+- Nearshore Culture & Mindset: Proven track record in high-velocity, client-facing startup or nearshore software development environments with strong ownership and troubleshooting capabilities.
+- Language Proficiency: Advanced English skills (both written and spoken) are mandatory for direct collaboration with U.S.-based client teams and technical leaders.
+
+What You’ll Love
+
+- USA Contractor / 100% Remote
+- Competitive Pay (USD)
+- Holidays Off & Paid Time Off
+- Health insurance assistance program
+- Opportunity to work with high-growth US-based companies and cutting-edge tech stacks.

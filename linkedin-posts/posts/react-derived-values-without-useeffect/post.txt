@@ -1,0 +1,25 @@
+Do you really need useEffect?
+
+If a value can be calculated from your current props or state, it might not need state of its own.
+
+Think of a shopping cart: you already have the items, their prices, and their quantities. You can calculate the total directly during rendering.
+
+Storing that total in state and updating it with useEffect adds an unnecessary step: the component renders with the previous total, the Effect updates state, and another render follows.
+
+Calculating the total in the component body keeps it consistent with the data for that render, without having to keep two pieces of information in sync.
+
+Before adding an Effect, ask:
+
+Can I calculate this value using data I already have?
+Is the calculation pure, without changing data or interacting with external systems?
+Is it fast enough to run during rendering?
+
+If so, a constant might be all you need.
+
+The same applies to filtered lists, counts, and conditions that determine what to display.
+
+If the calculation is expensive, consider memoization as an optimization. Adding an Effect to store the result shouldn't be your first step.
+
+useEffect makes sense when synchronizing with external systems, such as a connection or a browser event listener.
+
+Which value in your component could become a calculation instead of state?
