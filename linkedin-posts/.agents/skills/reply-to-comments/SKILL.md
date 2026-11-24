@@ -5,7 +5,7 @@ description: Registrar comentários de posts do LinkedIn em inglês e português
 
 # Responder comentários
 
-Mantenha a conversa com o usuário em português. Registre comentários e respostas em `posts/<topic-slug>/comments.md`, junto ao post correspondente. Não publique respostas no LinkedIn.
+Mantenha a conversa com o usuário em português. Registre comentários e respostas em `posts/<topic-slug>/comments.md`, junto ao post correspondente. Publique respostas no LinkedIn somente quando o usuário autorizar explicitamente a publicação.
 
 ## Identificar o post e registrar comentários
 
@@ -32,6 +32,12 @@ Mantenha a conversa com o usuário em português. Registre comentários e respos
 - Registre respostas como mensagens de `Hiago` no comentário correspondente. Não inclua status de rascunho, publicação ou aprovação, nem outros controles de publicação.
 - Ao revisar uma resposta existente, altere suas duas versões no mesmo número. Uma nova mensagem da conversa recebe o próximo número disponível.
 - Preserve conteúdo não relacionado. Depois de salvar, mostre no chat as respostas salvas somente em português, com seus números, e forneça um link para `comments.md`.
+
+## Publicar respostas autorizadas no LinkedIn
+
+1. Abra a caixa de resposta pelo botão **Responder** do comentário correspondente. Se o LinkedIn já tiver inserido a menção ao autor, preserve-a e insira o texto aprovado em inglês depois dela. Evite selecionar todo o conteúdo da caixa ao inserir o texto.
+2. Se a menção não vier preenchida, digite `@` seguido do nome do autor e selecione o perfil correspondente nas sugestões do LinkedIn.
+3. Confira se a menção aponta para o autor do comentário e se o texto em inglês está completo antes de publicar.
 
 ## Formato do arquivo
 

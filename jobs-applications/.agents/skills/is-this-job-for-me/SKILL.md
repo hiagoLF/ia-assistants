@@ -1,6 +1,6 @@
 ---
 name: is-this-job-for-me
-description: Avaliar vagas para Hiago, frontend no Brasil com 5 anos de React e React Native, buscando trabalho internacional remoto. Usar ao analisar uma descrição ou link de vaga, decidir se vale candidatar-se ou identificar instruções obrigatórias de candidatura. Responder em português com veredito, compatibilidades, impedimentos, pendências e tecnologias.
+description: Avaliar vagas internacionais remotas para Hiago, desenvolvedor frontend no Brasil, com base nas tecnologias e experiências registradas nas referências do projeto. Usar ao analisar uma descrição ou link de vaga, decidir se vale candidatar-se ou identificar instruções obrigatórias de candidatura. Responder em português com veredito, compatibilidades, impedimentos, pendências e tecnologias.
 ---
 
 # Is this job for me?
@@ -8,8 +8,8 @@ description: Avaliar vagas para Hiago, frontend no Brasil com 5 anos de React e 
 ## Perfil e critérios
 
 Adotar este perfil, salvo atualização explícita do usuário:
-- Residir e trabalhar no Brasil; ter 5 anos de experiência como desenvolvedor frontend com React e React Native.
-- Priorizar frontend com React ou React Native, totalmente remoto do Brasil, com pagamento em USD.
+- Residir e trabalhar no Brasil. Usar as referências do projeto para determinar as tecnologias e a experiência do perfil.
+- Priorizar frontend alinhado à experiência registrada, totalmente remoto do Brasil, com pagamento em USD.
 - Aceitar fullstack somente com foco claro em frontend; aceitar EUR como alternativa.
 - Exigir mínimo de US$4.000/mês ou US$48.000/ano.
 - Aceitar empresa brasileira somente se pagar em USD e atender clientes estrangeiros; exigir ambas as condições.
@@ -17,17 +17,17 @@ Adotar este perfil, salvo atualização explícita do usuário:
 Eliminar quando houver confirmação de:
 - Restrição de residência, nacionalidade ou autorização local que impeça trabalhar do Brasil; remoto limitado ao país da empresa.
 - Trabalho presencial ou híbrido obrigatório.
-- Experiência obrigatória em tecnologias fora do ecossistema JavaScript/TypeScript. Distinguir experiência exigida de ferramentas incidentais, simples menções e diferenciais, inclusive linguagens nativas mobile.
+- Falta confirmada da experiência exigida em uma tecnologia obrigatória, considerando as alternativas aceitas pela vaga.
 - Graduação obrigatória em computação, programação ou área relacionada sem alternativa de experiência equivalente. Não eliminar por graduação desejável.
 - Remuneração abaixo do mínimo ou pagamento fora de USD/EUR.
 - Empresa brasileira sem as duas condições da exceção.
-- Cargo sem foco em frontend ou sem atuação com React/React Native. Se o foco de uma vaga fullstack estiver indefinido, tratar como pendência.
+- Cargo sem foco em frontend. Se o foco de uma vaga fullstack estiver indefinido, tratar como pendência.
 
 ## Procedimento
 
 1. Ler a descrição inteira, inclusive rodapé e instruções de candidatura. Para links, abrir a fonte original. Se inacessível, pedir o texto; não alegar leitura integral.
 2. Usar informações fornecidas ou verificadas. Quando necessário e possível, consultar fontes oficiais para esclarecer condições omitidas. Não presumir elegibilidade pelo título “remote”, sede estrangeira ou salário anunciado em dólares.
-3. Distinguir requisitos obrigatórios, diferenciais e ausências. Considerar os requisitos específicos de experiência da vaga.
+3. Em cada avaliação, consultar `references/` na raiz do projeto. Começar por [resume-original.md](../../../references/resume-original.md) para identificar tecnologias, projetos e períodos de experiência. Usar [cover-letter-original.md](../../../references/cover-letter-original.md), [form-answers.md](../../../references/form-answers.md) e outras referências pertinentes para complementar a evidência. Comparar os requisitos técnicos obrigatórios com o uso, o nível e o tempo de experiência documentados. Tratar requisitos sem evidência suficiente como “A confirmar”. Distinguir experiência profissional de cursos, ferramentas incidentais, simples menções e diferenciais.
 4. Comparar salário base fixo, moeda e periodicidade; não somar bônus incertos ou benefícios. Dividir valores anuais por 12. Se toda a faixa estiver abaixo do piso, eliminar; se cruzar o piso, marcar negociação pendente. Para pagamento horário, não presumir horas garantidas. Distinguir moeda de referência de moeda efetiva de pagamento.
 5. Para EUR, verificar câmbio atual e indicar brevemente taxa, data e fonte ao comparar com o mínimo em USD; sem taxa verificável, deixar equivalência pendente.
 6. Dar “Não compatível” com qualquer eliminatório confirmado. Dar “Potencialmente compatível — confirmar condições” quando faltarem condições essenciais ou a faixa cruzar o piso. Dar “Compatível” somente com condições essenciais confirmadas. Nunca tratar salário omitido ou localização indefinida como reprovação confirmada.
@@ -51,7 +51,7 @@ Um único parágrafo de até 50 palavras resumindo a decisão e a principal raz�
 
 **Tecnologias prioritárias**
 
-Listar em ordem de importância até 10 tecnologias citadas, com até 5 palavras por item. Priorizar requisitos obrigatórios e ferramentas centrais. Não inventar tecnologias para completar 10 nem incluir competências comportamentais. Se não houver tecnologias, informar isso.
+Listar em ordem de importância até 10 tecnologias citadas na vaga, com até 5 palavras por item. Priorizar requisitos obrigatórios e ferramentas centrais, incluindo as que exigem confirmação de experiência. Não inventar tecnologias para completar 10 nem incluir competências comportamentais. Se não houver tecnologias, informar isso.
 
 **Obrigatório na candidatura**
 

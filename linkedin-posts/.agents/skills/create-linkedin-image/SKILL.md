@@ -22,8 +22,10 @@ Read the selected topic's final `posts/<topic-slug>/post.txt` when available and
 
 Use the available image-generation tool and follow its applicable image-generation instructions. Include the exact English copy and any exact code in the generation prompt. Generate the image itself, rather than returning only a prompt or suggestion.
 
-Save the final image as `posts/<topic-slug>/image.png`, alongside its post. For an image-only request, create the topic folder without inventing an unrequested post. Preserve an existing image unless a revision was requested; save additional variants with descriptive names in the same folder.
+Inspect the generated image. Check English-only text, spelling, code accuracy, readability, gradient, outer margins, and consistency with the post. Correct defects before handing it over. If the target dimensions are unsupported, report the actual dimensions without claiming an exact size.
 
-Inspect the generated image before delivering. Check English-only text, spelling, code accuracy, readability, gradient, outer margins, and consistency with the post. Correct defects before handing it over. If the target dimensions are unsupported, report the actual dimensions without claiming an exact size.
+Convert the selected generated image to JPEG with Python and Pillow. Use RGB, quality 95, and preserve its dimensions. Save it as `posts/<topic-slug>/image.jpg`, alongside its post. For an image-only request, create the topic folder. Preserve an existing image unless a revision was requested. Save additional variants with descriptive `.jpg` names in the same folder.
+
+Reopen the saved JPG and verify that it decodes as JPEG and has the expected dimensions. After verification, delete the selected source image created by the generator and any intermediate copy of that source. If conversion or verification fails, keep the source for retrying. Preserve any user-provided references and pre-existing images.
 
 Show the final image and link to the saved file. Keep the accompanying interaction in the user's language.
